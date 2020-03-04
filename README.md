@@ -7,6 +7,7 @@ Has been tested and used with Volatility 2.1-2.5.
 
 Example invocation:
 
+```
 volbat.bat WinXPSP3x86 C:\Users\username\evidence\image.dump .\out quick
 
 
@@ -31,3 +32,4 @@ volbat.bat profileString imageFilePath output_dir [groupName]
        dumps - vaddump, procexedump, procmemdump, moddump, memdump, lsadump, hivedump, hashdump,  
                dumpcerts, dumpfiles, dlldump  
         --- If no group is specified, all groups will be executed  
+```
